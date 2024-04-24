@@ -51,3 +51,6 @@ The main entry file `index.js` imports `style.scss` which includes Tailwind CSS 
 You can also include any other CSS file in your project and it will be processed by Webpack.
 
 For example, to include a CSS or SCSS (Sass) file in your project, just import it in your JavaScript file. CSS file you can link directly to your .html file.
+
+**⚠️ Change in Partials:** 
+If you change any code in a partial file, you need to run `npm run dev` to see the changes.
